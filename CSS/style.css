@@ -17,6 +17,33 @@
   color: black;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  place-content: center;
+}
+
+.topleft {
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cinza {
+  font-size: 50px;
+  color: #c6c6c6;
+  text-align: right;
+  place-self: center;
+}
+
+.descricao {
+  
+  background-color: white;
+  border: 50px solid white;
+}
+
 /* # Cores
 
 cinza-fundo: #f7f7f7
