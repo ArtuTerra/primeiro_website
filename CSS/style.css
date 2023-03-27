@@ -1,0 +1,40 @@
+.titulo {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex a {
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* # Cores
+
+cinza-fundo: #f7f7f7
+cinza-texto: #c6c6c6
+vermelho: #ee2211
+
+# Tipografia
+
+fonte: Arial
+parágrafos: 20px
+Vantagens Bikcraft: 64px
+
+# Tamanhos
+
+conteúdo principal: máximo 1000px */
+
+body {
+  margin-top: 40px;
+  font-family: Arial;
+  background-color: #f7f7f7;
+}
