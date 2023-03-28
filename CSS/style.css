@@ -18,6 +18,7 @@
 }
 
 .grid {
+  margin: 50px;
   display: grid;
   grid-template-columns: repeat(2, 500px);
   place-content: center;
@@ -25,6 +26,8 @@
 
 .topleft {
   background-color: white;
+  text-align: right;
+  position: relative;
 }
 
 img {
@@ -32,16 +35,32 @@ img {
 }
 
 .cinza {
-  font-size: 50px;
+  font-size: 64px;
   color: #c6c6c6;
   text-align: right;
   place-self: center;
 }
 
 .descricao {
-  
   background-color: white;
   border: 50px solid white;
+}
+
+.fixo {
+  background-color: #ee2211;
+  color: #ee2211;
+  font-size: 5px;
+  position: absolute;
+  top: 10px;
+  right: -40px;
+  padding: 1px 40px;
+}
+
+.botao {
+  text-decoration: none;
+  color: white;
+  background-color: #ee2211;
+  padding: 10px 30px;
 }
 
 /* # Cores
@@ -64,4 +83,16 @@ body {
   margin-top: 40px;
   font-family: Arial;
   background-color: #f7f7f7;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
 }
