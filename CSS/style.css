@@ -63,6 +63,10 @@ img {
   padding: 10px 30px;
 }
 
+h3 img {
+  max-width: 25px;
+}
+
 /* # Cores
 
 cinza-fundo: #f7f7f7
