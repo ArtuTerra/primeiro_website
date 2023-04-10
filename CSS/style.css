@@ -1,10 +1,10 @@
 body {
-  margin: 0px;
-  margin-top: 60px;
+  margin: 0rem;
+  margin-top: 3.75rem;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f7f7f7;
   display: grid;
-  gap: 60px;
+  gap: 3.75rem;
   justify-items: center;
 }
 
@@ -12,7 +12,7 @@ p,
 h1,
 h2,
 h3 {
-  margin: 0px;
+  margin: 0rem;
 }
 
 p {
@@ -27,41 +27,41 @@ a {
 
 .navegacao {
   list-style: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .navp {
   background-color: white;
-  padding: 15px 30px;
-  border-radius: 10px;
+  padding: 0.9375rem 1.875rem;
+  border-radius: 0.625rem;
   color: black;
   text-transform: uppercase;
 }
 
 .navp:hover {
   transition: 0.1s;
-  outline: #ee2211 solid 2px;
+  outline: #ee2211 solid 0.125rem;
 }
 
 .conteudo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* place-content: center; */
-  max-width: 1000px;
+  max-width: 62.5rem;
 }
 
 .topleft {
   background-color: white;
   text-align: right;
   position: relative;
-  padding: 40px;
+  padding: 2.5rem;
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
   align-content: center;
   justify-items: end;
 }
@@ -70,15 +70,18 @@ a {
   content: "";
   background: #ee2211;
   position: absolute;
-  top: 30px;
-  right: -30px;
-  width: 60px;
-  height: 4px;
+  top: 1.875rem;
+  right: -1.875rem;
+  width: 3.75rem;
+  height: 0.25rem;
 }
 
 img {
   max-width: 100%;
-  /* display: block; */
+}
+
+.headbik {
+  width: 10rem;
 }
 
 .cinza {
@@ -87,7 +90,7 @@ img {
   text-align: right;
   align-self: center;
   text-transform: uppercase;
-  padding: 40px;
+  padding: 2.5rem;
   background-image: url(/img/onda.svg);
 }
 
@@ -98,7 +101,7 @@ img {
 .descricao {
   margin: 0rem;
   background-color: white;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .descricao-itens:hover {
@@ -108,9 +111,9 @@ img {
 
 .descricao-itens {
   display: grid;
-  grid-template-columns: 25px 1fr;
-  gap: 10px 20px;
-  padding: 20px;
+  grid-template-columns: 1.5625rem 1fr;
+  gap: 0.625rem 1.25rem;
+  padding: 1.25rem;
 }
 
 .descricao-itens p {
@@ -121,8 +124,8 @@ img {
 .botao {
   color: white;
   background-color: #ee2211;
-  padding: 15px 30px;
-  border-radius: 4px;
+  padding: 0.9375rem 1.875rem;
+  border-radius: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -132,8 +135,8 @@ img {
 }
 
 .rodape {
-  bottom: 0px;
-  padding: 30px;
+  bottom: 0rem;
+  padding: 1.875rem;
   width: 100%;
   background: white;
   text-align: center;
