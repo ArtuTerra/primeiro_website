@@ -145,20 +145,14 @@ img {
 
 @media (max-width: 915px) {
   .conteudo {
-    display: grid;
-    grid-template-columns: minmax(32rem, 1fr);
-    /* place-content: center; */
+    grid-template-columns: 1fr;
     max-width: 35rem;
   }
 
   body {
     margin: 0rem;
     margin-top: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f7f7f7;
-    display: grid;
     gap: 2rem;
-    justify-items: center;
   }
 
   .navp {
@@ -170,11 +164,6 @@ img {
   }
 
   .topleft::before {
-    content: "";
-    position: absolute;
-    top: 0rem;
-    right: 0rem;
-    width: 0rem;
-    height: 0rem;
+    display: none;
   }
 }
