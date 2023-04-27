@@ -79,11 +79,16 @@ a {
 
 img {
   max-width: 100%;
-  
 }
 
 .headbik {
   width: 10rem;
+}
+
+.bicicleta {
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
 }
 
 .cinza {
@@ -167,5 +172,9 @@ img {
 
   .topleft::before {
     display: none;
+  }
+
+  .cinza {
+    font-size: 2rem;
   }
 }
