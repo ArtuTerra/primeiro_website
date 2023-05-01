@@ -2,7 +2,7 @@ body {
   margin: 0rem;
   margin-top: 3.75rem;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f7f7f7;
+  background-color: #cbd18f;
   display: grid;
   gap: 3.75rem;
   justify-items: center;
@@ -44,8 +44,9 @@ a {
 }
 
 .navp:hover {
+  /* transition-property: ; */
   transition: 0.1s;
-  outline: #ee2211 solid 0.125rem;
+  outline: #3a6b35 solid 0.125rem;
 }
 
 .conteudo {
@@ -68,7 +69,7 @@ a {
 
 .topleft::before {
   content: "";
-  background: #ee2211;
+  background: #e3b410;
   position: absolute;
   top: 1.875rem;
   right: -1.875rem;
@@ -84,9 +85,15 @@ img {
   width: 10rem;
 }
 
-.cinza {
+.bicicleta {
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.lowerLeft {
   font-size: 4rem;
-  color: #c6c6c6;
+  color: #3a6b35;
   text-align: right;
   align-self: center;
   text-transform: uppercase;
@@ -106,7 +113,7 @@ img {
 
 .descricao-itens:hover {
   transition: 0.1s;
-  border-left: 0.2rem solid #ee2211;
+  border-left: 0.2rem solid #3a6b35;
 }
 
 .descricao-itens {
@@ -122,15 +129,15 @@ img {
 }
 
 .botao {
-  color: white;
-  background-color: #ee2211;
+  color: #3a6b35;
+  background-color: #cbd18f;
   padding: 0.9375rem 1.875rem;
   border-radius: 0.25rem;
   text-transform: uppercase;
 }
 
 .botao:hover {
-  outline: 0.2rem solid #900;
+  outline: 0.2rem solid #3a6b35;
   transition: 0.1s;
 }
 
@@ -138,7 +145,7 @@ img {
   bottom: 0rem;
   padding: 1.875rem;
   width: 100%;
-  background: white;
+  background: #e3b448;
   text-align: center;
   box-sizing: border-box;
 }
@@ -165,5 +172,12 @@ img {
 
   .topleft::before {
     display: none;
+  }
+
+  .topleft {
+    text-align: center;
+  }
+  .cinza {
+    font-size: 2rem;
   }
 }

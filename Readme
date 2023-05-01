@@ -1,0 +1,3 @@
+Problemas conhecidos:
+
+-Telas com menos de 74 pixels de largura terão overflow.
