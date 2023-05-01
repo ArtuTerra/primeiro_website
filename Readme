@@ -1,3 +1,19 @@
+Site criado por Arthur Terra
+
+Meu primeiro website, propósito desse site foi testar os meus conhecimentos atuais de HTML e CSS.
+
+Recursos testados:
+List,
+Hover,
+Posicionamento Absoluto,
+Grid,
+Flexbox,
+Site Responsivo p/ mobile,
+Criação e edição de imagem SVG,
+Criação e edição de icones,
+e mais.
+
+
 Problemas conhecidos:
 
 -Telas com menos de 74 pixels de largura terão overflow.
