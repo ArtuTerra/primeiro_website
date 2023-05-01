@@ -52,7 +52,6 @@ a {
 .conteudo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* place-content: center; */
   max-width: 62.5rem;
 }
 
@@ -81,11 +80,11 @@ img {
   max-width: 100%;
 }
 
-.headbik {
+.headaxe {
   width: 10rem;
 }
 
-.bicicleta {
+.machado {
   height: 100%;
   object-fit: cover;
   object-position: top left;
@@ -177,7 +176,7 @@ img {
   .topleft {
     text-align: center;
   }
-  .cinza {
+  .lowerLeft {
     font-size: 2rem;
   }
 }
